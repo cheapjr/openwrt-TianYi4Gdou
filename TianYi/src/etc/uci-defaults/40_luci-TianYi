@@ -1,0 +1,11 @@
+#!/bin/sh
+
+uci -q batch <<-EOF >/dev/null
+	delete ucitrack.@TianYi[-1]
+	add ucitrack TianYi
+	set ucitrack.@TianYi[-1].init=TianYi
+	commit ucitrack
+EOF
+
+rm -f /tmp/luci-indexcache
+exit 0
