@@ -1,0 +1,37 @@
+#!/bin/sh /etc/rc.common
+# author:biubiu
+
+START=50
+
+start(){
+	if ps |grep "/usr/sbin"| grep "TianYi" | egrep -v grep >/dev/null
+	then
+    	echo "TianYi clinet is started!"
+	else
+   	 echo start...
+		/usr/sbin/TianYi run &
+	fi
+}
+
+
+stop(){
+	killall TianYi
+}
+
+
+restart(){
+	stop
+	sleep 3
+	start
+}
+
+status(){
+	if ps |grep "/usr/sbin" | grep "TianYi" | egrep -v grep >/dev/null
+	then
+    	echo "TianYi is started!"
+	else
+   	 echo "TianYi is stop!"
+	fi
+}
+
+
