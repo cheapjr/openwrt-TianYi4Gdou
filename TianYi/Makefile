@@ -18,7 +18,7 @@ define Package/$(PKG_NAME)
   SECTION:=luci
   CATEGORY:=LuCI
   SUBMENU:=3. Applications
-  DEPENDS:=+wget,lua luci-baselua
+  DEPENDS:=+wget
   TITLE:=luci-app-TianYi
   PKGARCH:=all
 endef
