@@ -1,4 +1,0 @@
-config login
-	option nasip '61.146.20.252'
-	option username 'zjlanzjxs123456jj'
-	option password 'HelloWorld'
