@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: luci-app-TianYi 1.0\n"
+"POT-Creation-Date: 2016-01-30 11:07+0100\n"
+"PO-Revision-Date: 2015-04-23 13:00+0800\n"
+"Last-Translator: cheapjr <cheapljr@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+msgid "&"
+msgstr ""
+
+msgid "TianYi"
+msgstr "天翼认证"
+
+msgid "TianYi clinet"
+msgstr "天翼认证客户端"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "nasip"
+msgstr "nasip"
+
+msgid "wlanacip"
+msgstr "wlanacip"
+
+msgid "phone"
+msgstr "手机"
+
+msgid "secend clinet"
+msgstr "第二终端"
+
+msgid "simulate phone clinet"
+msgstr "模拟手机端认证"
+
+
+
+
